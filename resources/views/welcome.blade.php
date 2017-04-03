@@ -1,95 +1,126 @@
 <!DOCTYPE html>
-<html lang="{{ config('app.locale') }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Café Selecto - Café mexicano de especialidad tostado a domicilio</title>
 
-        <title>Laravel</title>
+<!--     <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="images/favicons/manifest.json">
+    <link rel="shortcut icon" href="images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="images/favicons/browserconfig.xml"> -->
+    <meta name="theme-color" content="#ffffff">
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
+    <!-- fontawesome -->
+    <script src="https://use.fontawesome.com/3db7fc1628.js"></script>
 
-            .full-height {
-                height: 100vh;
-            }
+    
+    <!-- google font -->
+    <link href='http://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css'>
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @if (Auth::check())
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ url('/login') }}">Login</a>
-                        <a href="{{ url('/register') }}">Register</a>
-                    @endif
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
+    <!-- custom css -->
+    <link href="css/custom.css" rel="stylesheet"/>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  </head>
+  <body>
+    <div class="se-pre-con"></div>
+    <div class="container">
+<!--       <div class="row">
+        <div class="col-md-12">
+          <div class="header-logo-wrapper">
+            <h1>Café Selecto</h1>
+          </div>
         </div>
-    </body>
+      </div> -->
+
+      <div class="row cont">
+        <div class="col-md-12">
+        <h1 class="titleh1">Café Selecto</h1>
+        <h2 class="text-center">Café mexicano de especialidad tostado a domicilio.</h2>
+        <h3 class="text-center">espéranos pronto</h3>
+        </div>
+      </div>
+  
+<!--       <div class="row">
+        <div class="col-md-12">
+          <div id="counter_wrapper">
+            <div class="text-center" id="counter"></div>
+          </div>
+        </div>
+      </div> -->
+
+<!--       <div class="text-center subscribe-form-wrapper">
+        <form action="#" class="form-inline">
+          <div class="form-group">
+           <label for="subscriberName">name</label>
+           <input type="text" name="subscriberName" class="center-block form-control" placeholder="name" />
+          </div>
+
+          <div class="form-group">
+            <label for="subscriberEmail">email</label>
+            <input type="email" name="subscriberEmail" class="center-block form-control form-subs-email" placeholder="email" />
+          </div>
+
+          <button type="submit" class="btn btn-default">Subscribe</button>
+        </form>
+      </div> -->
+
+<!--     <div class="row">
+      <div class="col-md-12">
+        <div class="social-media-wrapper text-center">
+          <a href="#"><i class="fa fa-pinterest"></i></a>
+          <a href="#"><i class="fa fa-facebook-official"></i></a>
+          <a href="#"><i class="fa fa-google-plus-official"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+    </div> -->
+
+<!--     <div class="row">
+      <div class="col-md-12">
+        <div class="text-center copyright">&copy; 2017 Avion by <a target="_blank" style="color:#fff;" href="https://www.behance.net/glendragon">Glen Dragon</a></div> 
+      </div>
+    </div> -->
+    
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- fit text -->
+    <script type="text/javascript" src="js/jquery.fittext.js"></script>
+
+    <!-- jquery countdown -->
+    <script type="text/javascript" src="js/jquery.plugin.js"></script> 
+    <script type="text/javascript" src="js/jquery.countdown.js"></script>
+
+    <!--placeholder -->
+    <script type="text/javascript" src="js/jquery.placeholder.js"></script>
+
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </body>
 </html>
