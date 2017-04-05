@@ -17,5 +17,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 Route::post('/webhook', function(Request $request) {
-	return json_encode($request);
+	$all = $request->all();
+	$out = "\n\nparams: ".json_encode($all)."\n";
+	$out.= "headers: ".json_encode(getallheaders())."\n";
+	$wrote = File::append('../storage/logs/webhooks.log', $out);
+	return $wrote === false ? 'error writting file' : 'OK';
 });
