@@ -57,7 +57,7 @@
 
       <div class="row cont">
         <div class="col-md-12">
-
+        
         <h1 class="titleh1">café<b>selecto</b>.mx</h1>
         <h2 class="text-center">Café de especialidad a domicilio.</h2>
         <h3 class="text-center">Espéranos pronto.</h3>
