@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Café Selecto - Café mexicano de especialidad tostado a domicilio</title>
+    <title>Café Selecto - Café mexicano de especialidad a domicilio</title>
 
 <!--     <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-touch-icon-60x60.png">
@@ -34,7 +34,7 @@
 
     
     <!-- google font -->
-    <link href='http://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
 
     <!-- custom css -->
     <link href="css/custom.css" rel="stylesheet"/>
@@ -57,9 +57,9 @@
 
       <div class="row cont">
         <div class="col-md-12">
-        <h1 class="titleh1">Café Selecto</h1>
-        <h2 class="text-center">Café mexicano de especialidad tostado a domicilio.</h2>
-        <h3 class="text-center">espéranos pronto</h3>
+        <h1 class="titleh1">café<b>selecto</b>.mx</h1>
+        <h2 class="text-center">Café de especialidad a domicilio.</h2>
+        <h3 class="text-center">Espéranos pronto.</h3>
         </div>
       </div>
   
