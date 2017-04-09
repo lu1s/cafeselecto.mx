@@ -34,7 +34,7 @@
 
     
     <!-- google font -->
-    <link href='http://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
 
     <!-- custom css -->
     <link href="css/custom.css" rel="stylesheet"/>
@@ -57,9 +57,9 @@
 
       <div class="row cont">
         <div class="col-md-12">
-        <h1 class="titleh1">Café Selecto</h1>
-        <h2 class="text-center">Café mexicano de especialidad a domicilio.</h2>
-        <h3 class="text-center">espéranos pronto</h3>
+        <h1 class="titleh1">café<b>selecto</b>.mx</h1>
+        <h2 class="text-center">Café de especialidad a domicilio.</h2>
+        <h3 class="text-center">Espéranos pronto.</h3>
         </div>
       </div>
   

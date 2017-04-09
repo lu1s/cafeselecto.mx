@@ -23,3 +23,4 @@ Route::post('/webhook', function(Request $request) {
 	$wrote = File::append('../storage/logs/webhooks.log', $out);
 	return $wrote === false ? 'error writting file' : 'OK';
 });
+
